@@ -14,9 +14,11 @@
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    max-width: 960px;
+    max-width: 360px;
+    top: 70%;
     margin: 100px auto;
     box-shadow: 0 0 50px #333;
+    position: absolute;
   }
    
   .gallery-item {
